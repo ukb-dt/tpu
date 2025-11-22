@@ -1,3 +1,22 @@
+{% raw %}
+<!-- Drop this anywhere in your README.md or page HTML -->
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$','$$'], ['\\[','\\]']],
+      processEscapes: true
+    },
+    options: {
+      skipHtmlTags: ['script','noscript','style','textarea','pre','code']
+    }
+  };
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+{% endraw %}
+
 # A
 Ah, I see exactly what you mean—there’s a kind of tactile satisfaction in seeing human-scale energy expressed numerically, then matching it to lived experience. Your climb of Gahinga, 9.5 hours at 111 W average, lands perfectly in the ballpark of a “Person” or even slightly above your basal metabolism in the table (which is ~83 W).
 
